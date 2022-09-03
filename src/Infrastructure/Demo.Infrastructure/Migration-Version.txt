@@ -1,0 +1,2 @@
+﻿Enable-Migrations -Project Demo.Infrastructure -StartUp Demo.Api -Verbose
+Add-Migration Demo00001 -Project Demo.Infrastructure -StartUp Demo.Api -Verbose

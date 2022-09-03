@@ -10,5 +10,6 @@ namespace Demo.Domain.Repositories
 {
     public interface IDepartmentRepository : IBaseRepository<Department>
     {
+        Task<Department> GetDepartmentByName(string name);
     }
 }
